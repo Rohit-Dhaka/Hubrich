@@ -1,5 +1,6 @@
 import './App.css';
-import './assets/css/root.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import ClientsSection from './components/ClientsSection';
 import FooterSection from './components/FooterSection';
 import HeroSection from './components/HeroSection';
@@ -10,8 +11,17 @@ import SeparationSection from './components/SeparationSection';
 import TargetSection from './components/TargetSection';
 import WillgetSection from './components/WillgetSection';
 import YourfaltSection from './components/YourfaltSection';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+
+        offset: 200,
+      }
+    );
+  }, [])
   return (
     <>
       <HeroSection />
