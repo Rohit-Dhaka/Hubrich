@@ -1,7 +1,5 @@
 import React from 'react'
-
 import Bookbtn from './Bookbtn'
-
 const Nonbinding = () => {
     return (
         <section className='bg-[#F2F8FF] '>
@@ -14,15 +12,10 @@ const Nonbinding = () => {
                         <h6 className=' font-poppins font-normal text-[16px] leading-[25px]  pl-[14px] lg:max-w-[412px] relative after:absolute after:top-[4px] after:bottom-[10px] after:left-0 after:w-[2px] after:h-full after:bg-Barneypurple '>Click on the button below, choose an appointment and answer the questions truthfully. One of our strategy consultants will then contact you and conduct your free consultation. We can advise you on the following topics: </h6>
                     </div>
                 </div>
-
             </div>
-
             <div className='bg-nonbinding  bg-cover bg-no-repeat bg-center'>
-
-
                 <div className='max-w-[1140px] mx-auto px-[12px]' >
-
-                    <div className="flex lg:justify-center lg:pt-[111px] sm:pt-[80px] pt-[60px] max-lg:overflow-x-scroll " data-aos="fade-up">
+                    <div className="flex md:justify-center lg:pt-[111px] sm:pt-[80px] pt-[60px] max-md:overflow-x-scroll " data-aos="fade-up">
                         <div className="bg-lightgray duration-300  max-lg:min-w-[250px] max-w-[250px] px-[26px] pt-[61px] pb-[20px] h-[200px] hover:bg-blue">
                             <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>How do I let go of my EX so I can finally leave him behind?</h6>
                         </div>
@@ -50,13 +43,9 @@ const Nonbinding = () => {
                     <div className="pt-[58px] lg:pb-[186px] sm:pb-[80px] pb-[60px] flex justify-center">
                         <Bookbtn />
                     </div>
-
-
                 </div>
             </div>
-
         </section>
     )
 }
-
 export default Nonbinding

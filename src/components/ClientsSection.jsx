@@ -26,16 +26,13 @@ const ClientsSection = () => {
     appendDots: dots => (
       <div
           style={{
-              position: 'absolute',
-              transform: 'rotate(90deg)',
-              bottom: '16px',
-              right: '0px',
-              // display: "flex",
-              // alignItems: "center",
-              // justifyContent: "center"
+              position: 'absolute',                            
+              top: '45%',
+              right: '0px',              
+              width: '30px'            
           }}
       >
-          <ul style={{ margin: "0" }} className="custom-dots2"> {dots} </ul>
+          <ul style={{ margin: "0" }} className="custom-dots2 "> {dots} </ul>
       </div>
   ),
   };
@@ -60,7 +57,7 @@ const ClientsSection = () => {
         <div className="lg:pt-[202px] sm:pt-[160px] pt-[120px]">
           <h2 className=' uppercase font-helvetica font-medium text-[52px] leading-[66px] text-center'>What our <span className="text-Orange">clients</span> say</h2>
         </div>
-        <div className="slider-container  lg:pb-[226px]  sm:pb-[80px] pb-[60px] " data-aos="fade-up">
+        <div className="slider-container  lg:pb-[136px]  sm:pb-[80px] pb-[60px] " data-aos="fade-up">
           <Slider {...verticalslider}>
             <div>
               <div className="max-w-[820px]  mx-auto pb-[90px] pt-[84px]">
@@ -85,7 +82,6 @@ const ClientsSection = () => {
                     <h6 className=' font-poppins text-[16px] leading-[25px] text-center pt-[2px]'>Limana Enterprises, CA</h6>
                   </div>
                 </div>
-
               </div>
             </div>
             <div>

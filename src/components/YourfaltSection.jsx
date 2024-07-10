@@ -7,14 +7,13 @@ const YourfaltSection = () => {
                 <img src={Group5} alt="group" />
             </div>
             <div className="max-w-[1140px] mx-auto px-[12px]">
-                <div className=" absolute top-[-10%]">
-                    <div className="border-l-[2px] border-solid border-Orange w-[26px] h-[269px] border-b-[2px] relative">
+                <div className=" absolute sm:top-[-10%] top-[5%]">
+                    <div className="border-l-[2px] border-solid border-Orange w-[26px] sm:h-[269px] h-[100px] border-b-[2px] relative">
                         <p className=' absolute top-[-50px] left-[-20px]  font-poppins font-light text-[20px]  leading-[34px] rotate-[270deg] '>MJH</p>
                         <h6 className=' font-helvetica  font-normal text-[40px] leading-[51px] absolute  bottom-[-10px] left-[22px]  rotate-[270deg]'>01</h6>
                         <h6 className=' uppercase font-helvetica text-[24px] leading-[30px] absolute bottom-[-10px] left-[64px] '>fault</h6>
                     </div>
                 </div>
-
                 <div className="flex flex-row flex-wrap mx-[-12px] lg:pt-[150px] sm:pt-[80px] pt-[60px]">
                     <div className="md:w-7/12 w-full px-[12px]" data-aos="zoom-in-up">
                         <h2 className='font-helvetica font-normal text-[60px] leading-[77px] text-center'>IT'S NOT</h2>
@@ -30,38 +29,34 @@ const YourfaltSection = () => {
                 </h5>
             </div>
             <div className=" bg-fault bg-cover bg-no-repeat bg-center">
-                <div className="max-w-[1000px] mx-auto">
-                    <div className="flex justify-end" data-aos="zoom-in-up">
-                        <div className="max-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300  backdrop-blur-[3px]">
+                <div className="max-w-[1000px] mx-auto max-xl:px-[12px]">
+                    <div className="flex md:justify-end max-md:overflow-x-scroll" data-aos="zoom-in-up">
+                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300  backdrop-blur-[3px]">
                             <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>Your self-esteem is in the basement.</h6>
                         </div>
-                        <div className="max-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
+                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
                             <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>You keep asking yourself what you did wrong.
                             </h6>
                         </div>
-                        <div className="max-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
+                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
                             <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>The feeling of helplessness is your constant companion.</h6>
                         </div>
                     </div>
-                    <div className="flex pt-[29px] max-lg:overflow-x-scroll" data-aos="zoom-in-up">
-                        <div className="lg:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
+                    <div className="flex pt-[29px] max-md:overflow-x-scroll" data-aos="zoom-in-up">
+                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
                             <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>You spend the nights alone and lonely.
                             </h6>
                         </div>
-                        <div className="lg:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
+                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
                             <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>You have stopped going out and spend the time crying in your room.</h6>
                         </div>
-
-                        <div className="lg:max-w-[250px] min-w-[250px] bg-steelblue px-[37px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px] ">
+                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[37px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px] ">
                             <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>An emotional chaos is raging inside you.</h6>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </section>
     )
 }
-
 export default YourfaltSection

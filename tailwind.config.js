@@ -11,7 +11,8 @@ module.exports = {
         helvetica: "Helvetica Neue",
       },
       boxShadow: {
-        clientsbox: "0px 2px 48px 0px #00000014",        
+        clientsbox: "0px 2px 48px 0px #00000014",     
+        buttonshadow: " 0px 0px 20px 2px #8703C5"   
       },
       colors: {
         Orange: "#F77B0B",

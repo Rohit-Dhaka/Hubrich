@@ -15,12 +15,10 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    AOS.init(
-      {
-
-        offset: 200,
-      }
-    );
+    AOS.init({
+      once: true,
+      offset: 200,
+    });
   }, [])
   return (
     <>
