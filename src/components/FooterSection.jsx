@@ -12,7 +12,7 @@ const FooterSection = () => {
             <div className="max-w-[1140px] w-full mx-auto px-[12px] relative">
                 <div className="sm:absolute sm:right-[12px] lg:top-[94px] sm:top-[40px] ">
                     <div className="flex gap-[12px] sm:flex-col max-sm:justify-center max-sm:pt-[60px] ">
-                        <a href="https://www.facebook.com/" target='_blank' className=' hover:scale-[1.1] duration-300 ease-linear'>                         
+                        <a href="https://www.facebook.com" target='_blank' className=' hover:scale-[1.1] duration-300 ease-linear'>                         
                          <Facebook/>
                          </a>
                         <a href="https://x.com/?lang=en" target='_blank' className='hover:scale-[1.1] duration-300 ease-linear'>
@@ -23,7 +23,7 @@ const FooterSection = () => {
                             
                             <Email/>
                             </a>
-                        <a href="https://www.instagram.com/" target='_blank' className='hover:scale-[1.1] duration-300 ease-linear '> 
+                        <a href="https://www.instagram.com" target='_blank' className='hover:scale-[1.1] duration-300 ease-linear '> 
                         
                         <Instgram/>
                         </a>

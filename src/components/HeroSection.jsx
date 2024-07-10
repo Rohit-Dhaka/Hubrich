@@ -17,14 +17,12 @@ const HeroSection = () => {
             </div>           
             <div className="navbar pt-[24px] z-[1] relative " data-aos="fade-down">
                 <div className='max-w-[1140px] mx-auto px-[12px]'>
-                    <div className="flex justify-between items-center">
-                        <div className="cursor-pointer">
-                            <h2>Logo</h2>                            
-                        </div>
+                    <div className="flex justify-end items-center">
+                       
                         <div className={`${show ? "navshow   " : ""}   menu flex gap-[40px] lg:items-center  max-lg:absolute max-lg:w-full max-lg:h-[100vh]  max-lg:bg-blue max-lg:top-0 max-lg:left-[-100%] max-lg:flex-col  max-lg:items-center max-lg:justify-center duration-300 z-[2]`}>
                             <ul className='flex max-lg:flex-col  max-lg:items-center gap-[40px] p-0 m-0'>
-                                <li><a onClick={() => setShow(!show)} href="#benifits" className='text-white font-helvetica font-normal leading-[20px] text-[16px] hover:text-blue duration-300'>Benifits</a></li>
-                                <li><a onClick={() => setShow(!show)} href="#test" className='text-white font-helvetica font-normal leading-[20px] text-[16px] hover:text-blue duration-300'>Testimonials</a></li>
+                                <li><a onClick={() => setShow(!show)} href="#benifits" className='text-white font-helvetica font-normal leading-[20px] text-[16px] hover:text-blue duration-300 relative after:absolute after:bottom-[-2px] after:left-0 after:w-0 after:h-[2px] after:bg-blue after:hover:w-full after:duration-300'>Benifits</a></li>
+                                <li><a onClick={() => setShow(!show)} href="#test" className='text-white font-helvetica font-normal leading-[20px] text-[16px] hover:text-blue duration-300 relative after:absolute after:bottom-[-2px] after:left-0 after:w-0 after:h-[2px] after:bg-blue after:hover:w-full after:duration-300'>Testimonials</a></li>
                             </ul>
                             <button className='bg-gradient-to-r from-LightSky to-Indigo py-[16px] px-[28px] font-inter font-medium text-[16px] leading-[24px] text-white border-0 hover:from-Indigo hover:to-LightSky hover:duration-300'>Book consultation now</button>
                         </div>
@@ -45,7 +43,7 @@ const HeroSection = () => {
                         <div className="flex gap-[17px] pt-[32px] items-center">
                             <Bookbtn />
                             <div className="cursor-pointer">
-                                <a href="tel:+0000000000">
+                                <a href="tel:+9823387562">
                                     <Phoneicon/>                                
                                 </a>
                             </div>
