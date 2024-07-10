@@ -14,10 +14,10 @@ const WillgetSection = () => {
                 <img src={Fafeflowerleft} alt="fafeflower" />
             </div>
             <div className='max-w-[1140px] mx-auto px-[12px] relative'>
-                <div className=" absolute  right-[1%] top-[8%]">
+                <div className=" absolute  right-[1%] sm:top-[8%] top-[20%]">
                     <div className="border-r-[2px] border-solid border-Orange w-[26px] h-[201px] border-b-[2px] relative">
-                        <p className=' absolute top-[-50px] left-[5px]  font-poppins font-light text-[20px]  leading-[34px] rotate-[270deg] '>MJH</p>
-                        <h6 className=' font-helvetica  font-normal text-[40px] leading-[51px] absolute  bottom-[-10px] left-[-40px]  rotate-[90deg]'>02</h6>
+                        <p className=' absolute top-[-50px] sm:left-[5px]  font-poppins font-light text-[20px]  leading-[34px] rotate-[270deg] '>MJH</p>
+                        <h6 className=' font-helvetica  font-normal sm:text-[40px] text-[30px] sm:leading-[51px] leading-[40px] absolute  sm:bottom-[-10px] bottom-[-17px] left-[-40px]  rotate-[90deg]'>02</h6>
                     </div>
                 </div>
                 <h5 className=' font-poppins  font-medium text-[16px] leading-[25px]  pt-[47px] text-center '>You are not alone! Numerous women before you stood exactly at this point, where you are now.</h5>
@@ -27,7 +27,7 @@ const WillgetSection = () => {
                 <div className="flex flex-row  flex-wrap mx-[-12px] items-center ">
                     <div className="lg:w-[50%] px-[12px] w-full" data-aos="zoom-out">
                         <div className="flex  gap-[12px]">
-                            <h2 className='font-helvetica font-normal text-[52px]  leading-[66px]  uppercase max-w-[266px] sm:pt-[29px]'>what you will <span className="text-Orange">get</span></h2>
+                            <h2 className='font-helvetica font-normal sm:text-[52px]  text-[42px] sm:leading-[66px] leading-[56px]  uppercase max-w-[266px] sm:pt-[29px]'>what you will <span className="text-Orange">get</span></h2>
                             <div className="sm:max-w-[224px] ">
                                 <img src={Flower} alt="flower" className='max-sm:max-w-[150px] w-full' />
                             </div>
@@ -69,17 +69,17 @@ const WillgetSection = () => {
                     </div>
                     <div className="lg:w-[33.33%] sm:w-[50%] w-full  max-sm:px-3" data-aos="fade-up">
                         <div className="  sm:h-[230px] h-[150px] group flex justify-center items-center w-[292px]  mx-auto ">
-                            <button class="h-[90px]  rounded-[8px] bg-gradient-to-r from-[#0C5FD1]  to-[#8703C5] p-[1.7px] max-w-[452px] flex hover:shadow-buttonshadow duration-300 mx-auto">
+                            <button class="h-[90px]  rounded-[8px] bg-gradient-to-r from-LightSky  to-Indigo p-[1.7px] max-w-[452px] flex hover:shadow-buttonshadow duration-300 mx-auto">
                                 <span class="flex gap-[6px] items-center py-[18px] ps-[9px] pe-[26px] w-full bg-white text-black rounded-[8px]  font-inter font-medium text-[16px] leading-[24px] ">
                                     <img src={MessageIcon} alt="messageicon" />
-                                    <span class="bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] inline-block text-transparent bg-clip-text">Book A Non-Binding Initial Consultation Now</span>
+                                    <span class="bg-gradient-to-r from-LightSky to-Indigo inline-block text-transparent bg-clip-text">Book A Non-Binding Initial Consultation Now</span>
                                 </span>
                             </button>
                         </div>
                     </div>
                     <div className=" absolute sm:bottom-[5%] bottom-[3%] max-xl:left-[1%]">
                         <div className="border-l-[2px] border-solid border-Orange w-[26px] h-[581px] border-b-[2px] relative">
-                            <h6 className=' font-helvetica  font-normal text-[40px] leading-[51px] absolute  bottom-[-10px] left-[22px]  rotate-[270deg]'>03</h6>
+                            <h6 className=' font-helvetica  font-normal sm:text-[40px] text-[30px] leading-[51px] absolute  sm:bottom-[-10px] bottom-[-17px] left-[22px]  rotate-[270deg]'>03</h6>
                             <h6 className=' uppercase font-helvetica text-[24px] leading-[30px] absolute bottom-[-10px] left-[64px] '>Goal</h6>
                         </div>
                     </div>

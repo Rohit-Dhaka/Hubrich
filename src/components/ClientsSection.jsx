@@ -1,12 +1,7 @@
 import React from "react";
 import Dp from '../assets/images/svg/dp.svg'
-
 import Slider from "react-slick";
 import { Blueline } from "../common/icon";
-
-
-
-
 const ClientsSection = () => {
   const verticalslider = {
     dots: true,
@@ -36,18 +31,15 @@ const ClientsSection = () => {
       </div>
   ),
   };
-
-
-
   return (
     <section className=" overflow-hidden">
 
       <div className="max-w-[1140px] mx-auto px-[12px] relative">
-        <div className=" absolute right-[4%] top-[30%]">          
+        <div className=" absolute xl:right-[4%] right-0 lg:block hidden  top-[30%] ">          
           <Blueline/>
         </div>
 
-        <div className=" absolute lg:right-0  right-[3%]  top-[4%]">
+        <div className=" absolute lg:right-0  right-[3%]  sm:top-[4%] top-[7%]">
           <div className="border-r-[2px] border-solid border-Orange w-[26px] h-[201px] border-b-[2px] relative">
             <p className=' absolute top-[-50px] left-[5px]  font-poppins font-light text-[20px]  leading-[34px] rotate-[270deg] '>MJH</p>
             <h6 className=' font-helvetica  font-normal text-[40px] leading-[51px] absolute  bottom-[-13px] left-[-43px]  rotate-[90deg]'>06</h6>
@@ -55,12 +47,12 @@ const ClientsSection = () => {
           </div>
         </div>
         <div className="lg:pt-[202px] sm:pt-[160px] pt-[120px]">
-          <h2 className=' uppercase font-helvetica font-medium text-[52px] leading-[66px] text-center'>What our <span className="text-Orange">clients</span> say</h2>
+          <h2 className=' uppercase font-helvetica font-medium sm:text-[52px] text-[42px] sm:leading-[66px] leading-[56px] text-center'>What our <span className="text-Orange">clients</span> say</h2>
         </div>
         <div className="slider-container  lg:pb-[136px]  sm:pb-[80px] pb-[60px] " data-aos="fade-up">
           <Slider {...verticalslider}>
             <div>
-              <div className="max-w-[820px]  mx-auto pb-[90px] pt-[84px]">
+              <div className="max-w-[820px]  mx-auto pb-[100px] pt-[84px]">
                 <div className="w-full sm:pt-[58px] pt-[40px] pb-[32px]  sm:px-[50px] px-[36px]  shadow-clientsbox relative ">
                   <div className=" absolute top-[-55px] translate-x-[-50%] left-[50%]">
                     <img src={Dp} alt="dp" />
@@ -85,7 +77,7 @@ const ClientsSection = () => {
               </div>
             </div>
             <div>
-              <div className="max-w-[820px]  mx-auto  pb-[90px] pt-[84px]">
+              <div className="max-w-[820px]  mx-auto  pb-[100px] pt-[84px]">
                 <div className="w-full sm:pt-[58px] pt-[40px] pb-[32px]  sm:px-[50px] px-[36px]  shadow-clientsbox relative ">
                   <div className=" absolute top-[-55px] translate-x-[-50%] left-[50%]">
                     <img src={Dp} alt="dp" />
@@ -111,7 +103,7 @@ const ClientsSection = () => {
               </div>
             </div>
             <div>
-              <div className="max-w-[820px]  mx-auto  pb-[90px] pt-[84px]">
+              <div className="max-w-[820px]  mx-auto  pb-[100px] pt-[84px]">
                 <div className="w-full sm:pt-[58px] pt-[40px] pb-[32px]  sm:px-[50px] px-[36px]  shadow-clientsbox relative ">
                   <div className=" absolute top-[-55px] translate-x-[-50%] left-[50%]">
                     <img src={Dp} alt="dp" />
@@ -143,19 +135,13 @@ const ClientsSection = () => {
         </div>
 
         <div className=" absolute bottom-[2%] left-[10px]">
-          <div className="border-l-[2px] border-solid border-Orange w-[26px] h-[269px] border-b-[2px] relative">
+          <div className="border-l-[2px] border-solid border-Orange w-[26px] sm:h-[269px] h-[64px] border-b-[2px] relative">
             <p className=' absolute top-[-50px] left-[-20px]  font-poppins font-light text-[20px]  leading-[34px] rotate-[270deg] '>MJH</p>
             <h6 className=' font-helvetica  font-normal text-[40px] leading-[51px] absolute  bottom-[-10px] left-[22px]  rotate-[270deg]'>07</h6>
             <h6 className=' uppercase font-helvetica text-[24px] leading-[30px] absolute bottom-[-10px] left-[64px] text-nowrap '>take step</h6>
           </div>
         </div>
-
-
-
-
-
-
-
+       
 
       </div>
     </section>

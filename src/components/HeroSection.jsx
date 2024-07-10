@@ -26,9 +26,9 @@ const HeroSection = () => {
                                 <li><a onClick={() => setShow(!show)} href="#benifits" className='text-white font-helvetica font-normal leading-[20px] text-[16px] hover:text-blue duration-300'>Benifits</a></li>
                                 <li><a onClick={() => setShow(!show)} href="#test" className='text-white font-helvetica font-normal leading-[20px] text-[16px] hover:text-blue duration-300'>Testimonials</a></li>
                             </ul>
-                            <button className='bg-gradient-to-r from-[#0C5FD1] to-[#8703C5] py-[16px] px-[28px] font-inter font-medium text-[16px] leading-[24px] text-white border-0 hover:from-[#8703C5] hover:to-[#0C5FD1] hover:duration-300'>Book consultation now</button>
+                            <button className='bg-gradient-to-r from-LightSky to-Indigo py-[16px] px-[28px] font-inter font-medium text-[16px] leading-[24px] text-white border-0 hover:from-Indigo hover:to-LightSky hover:duration-300'>Book consultation now</button>
                         </div>
-                        <div className={`${show ? "cross" : " "}  menuico  lg:hidden block z-10   `} onClick={() => setShow(!show)}>
+                        <div className={`${show ? "cross" : " "}  menuico  lg:hidden block z-10  cursor-pointer  `} onClick={() => setShow(!show)}>
                             <span className='bar h-[2px] w-[25px] bg-black block duration-300 ease-linear'></span>
                             <span className='bar h-[2px] w-[25px] bg-black block duration-300 ease-linear my-2'></span>
                             <span className='bar h-[2px] w-[25px] bg-black block duration-300 ease-linear'></span>
@@ -37,11 +37,11 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className='max-w-[1140px] mx-auto px-[12px] w-full flex flex-grow items-center'>                
-                    <div className='w-full    pt-[160px]' data-aos="zoom-in">
+                    <div className='w-full    sm:pt-[160px] pt-[100px]' data-aos="zoom-in">
                         <h6 className='font-normal text-[18px] leading-[24px] text-Orange font-helvetica'>Marc joachim hubrich</h6>
-                        <h1 className='font-normal  text-[60px] leading-[77px] font-helvetica  uppercase max-w-[480px]'>Now I let you go!</h1>
+                        <h1 className='font-normal  sm:text-[60px] text-[48px]  sm:leading-[77px] leading-[60px] font-helvetica  uppercase max-w-[480px]'>Now I let you go!</h1>
                         <h6 className=' font-poppins font-normal text-[16px] leading-[25px] opacity-[70%] pt-[7px] max-w-[517px]'>For women who do not want to be completely dragged down by a SEPARATION.</h6>
-                        <h6 className='font-poppins font-normal text-[16px] leading-[25px] opacity-[70%] pb-[32px] max-w-[517px]'>How to let go of your EX so you can leave him behind without having to run to a therapist right away.</h6>
+                        <h6 className='font-poppins font-normal text-[16px] leading-[25px] opacity-[70%] sm:pb-[32px] max-w-[517px]'>How to let go of your EX so you can leave him behind without having to run to a therapist right away.</h6>
                         <div className="flex gap-[17px] pt-[32px] items-center">
                             <Bookbtn />
                             <div className="cursor-pointer">
@@ -50,7 +50,7 @@ const HeroSection = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="pt-[63px] flex sm:justify-end z-1  relative ">
+                        <div className="sm:pt-[63px] pt-[50px] flex sm:justify-end z-1  relative ">
                             <div className="flex pb-[44px]">
                                 <h6 className=' font-helvetica  sm:text-white font-normal text-[16px] leading-[27px]  ps-[13px] max-w-[170px] uppercase relative after:absolute after:top-[1px] after:left-0 after:w-[2px] after:h-full after:bg-Barneypurple after:inline-block '>Die wichtigsten Aspekte einer Trennung:</h6>
                                 <div className="flex flex-col">
