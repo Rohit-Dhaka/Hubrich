@@ -38,8 +38,8 @@ const HeroSection = () => {
                 <div className='w-full    sm:pt-[160px] pt-[100px]' data-aos="zoom-in">
                     <h6 className='font-normal text-[18px] leading-[24px] text-Orange font-helvetica'>Marc joachim hubrich</h6>
                     <h1 className='font-normal  sm:text-[60px] text-[48px]  sm:leading-[77px] leading-[60px] font-helvetica  uppercase max-w-[480px]'>Now I let you go!</h1>
-                    <h6 className=' font-poppins font-normal text-[16px] leading-[25px] opacity-[70%] pt-[7px] max-w-[517px]'>For women who do not want to be completely dragged down by a SEPARATION.</h6>
-                    <h6 className='font-poppins font-normal text-[16px] leading-[25px] opacity-[70%] sm:pb-[32px] max-w-[517px]'>How to let go of your EX so you can leave him behind without having to run to a therapist right away.</h6>
+                    <p className=' font-poppins font-normal text-[16px] leading-[25px] opacity-[70%] pt-[7px] max-w-[517px]'>For women who do not want to be completely dragged down by a SEPARATION.</p>
+                    <p className='font-poppins font-normal text-[16px] leading-[25px] opacity-[70%] sm:pb-[32px] max-w-[517px]'>How to let go of your EX so you can leave him behind without having to run to a therapist right away.</p>
                     <div className="flex gap-[17px] pt-[32px] items-center">
                         <Bookbtn />
                         <a href="tel:+9823387562" className="cursor-pointer"><Phoneicon /></a>

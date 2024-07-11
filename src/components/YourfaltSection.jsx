@@ -23,7 +23,7 @@ const YourfaltSection = () => {
                     </div>
                     <div className="md:w-5/12 w-full px-[12px] " data-aos="zoom-in-up">
                         <div className="pt-2.5 md:pl-[55px]">
-                            <h6 className=' font-poppins font-normal text-[16px] leading-[25px]  ps-[11px] relative after:absolute after:top-0 after:left-0 after:w-[2px] after:h-full  after:bg-Barneypurple after:inline-block  max-w-[288px]'>It's not your fault for not knowing how to let go of the partner who no longer made you feel special.</h6>
+                            <p className=' font-poppins font-normal text-[16px] leading-[25px]  ps-[11px] relative after:absolute after:top-0 after:left-0 after:w-[2px] after:h-full  after:bg-Barneypurple after:inline-block  max-w-[288px]'>It's not your fault for not knowing how to let go of the partner who no longer made you feel special.</p>
                         </div>
                     </div>
                 </div>

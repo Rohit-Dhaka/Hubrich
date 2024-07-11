@@ -57,21 +57,21 @@ const ClientsSection = () => {
                   <div className=" absolute top-[-55px] translate-x-[-50%] left-[50%]">
                     <img src={Dp} alt="dp" />
                   </div>
-                  <h5 className='font-poppins font-medium text-[16px] leading-[25px] text-center opacity-[70%]'>Nec pellentesque aliquet diam eget sed mi ornare vulputate duis. Posuere id habitasse quis ac ac. Pellentesque eget sed ut tincidunt cras. Ipsum nec placerat vitae orci. Accumsan amet commodo montes, aenean velit gravida tristique montes. Porttitor velit cras venenatis, amet curabitur ultricies ac dictum. </h5>
+                  <p className='font-poppins font-medium text-[16px] leading-[25px] text-center opacity-[70%]'>Nec pellentesque aliquet diam eget sed mi ornare vulputate duis. Posuere id habitasse quis ac ac. Pellentesque eget sed ut tincidunt cras. Ipsum nec placerat vitae orci. Accumsan amet commodo montes, aenean velit gravida tristique montes. Porttitor velit cras venenatis, amet curabitur ultricies ac dictum. </p>
                   <h4 className='font-poppins font-medium text-[16px] leading-[25px] pt-4 text-center'>Marrie James-CEO</h4>
-                  <h6 className=' font-poppins text-[16px] leading-[25px] text-center'>Limana Enterprises, CA</h6>
+                  <h4 className=' font-poppins text-[16px] leading-[25px] text-center'>Limana Enterprises, CA</h4>
 
                 </div>
                 <div className="flex max-sm:flex-col gap-4 pt-4">
                   <div className=" shadow-clientsbox px-9 pt-[25px] pb-[31px]">
                     <h6 className=' opacity-[70%]  font-poppins font-normal text-[16px] leading-[25px]  text-center'>Elementum risus cursus vehicula consectetur sapien ut tempor, venenatis turpis. Sed mauris enim.</h6>
                     <h4 className='font-poppins font-medium text-[16px] leading-[25px] pt-[19px] text-center'>Ralph Edwards-CEO</h4>
-                    <h6 className=' font-poppins text-[16px] leading-[25px] text-center pt-[2px]'>Limana Enterprises, CA</h6>
+                    <h4 className=' font-poppins text-[16px] leading-[25px] text-center pt-[2px]'>Limana Enterprises, CA</h4>
                   </div>
                   <div className=" shadow-clientsbox px-9 pt-[25px] pb-[31px]">
                     <h6 className=' opacity-[70%]  font-poppins font-normal text-[16px] leading-[25px]  text-center'>Elementum risus cursus vehicula consectetur sapien ut tempor, venenatis turpis. Sed mauris enim.</h6>
                     <h4 className='font-poppins font-medium text-[16px] leading-[25px] pt-[19px] text-center'>Darrell Steward-Head</h4>
-                    <h6 className=' font-poppins text-[16px] leading-[25px] text-center pt-[2px]'>Limana Enterprises, CA</h6>
+                    <h4 className=' font-poppins text-[16px] leading-[25px] text-center pt-[2px]'>Limana Enterprises, CA</h4>
                   </div>
                 </div>
               </div>

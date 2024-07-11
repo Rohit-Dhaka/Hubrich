@@ -72,7 +72,7 @@ const SeparationSection = () => {
                     <div className="md:w-6/12 w-full px-[12px] md:pt-0 pt-4"> 
                         <h6 className='font-helvetica font-normal text-[29px] leading-[37px] pt-[36px]'>THE FOUR PHASES OF</h6>
                         <h2 className='font-helvetica font-normal leading-[62px] text-[52px] md:max-w-[327px]'>SEPARATION<span className="text-Orange"> MINDSET</span></h2>
-                        <h5 className=' font-poppins font-normal text-[16px] leading-[25px]  opacity-[70%] pt-[19px] pb-[36px] max-w-[490px]'>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</h5>
+                        <p className=' font-poppins font-normal text-[16px] leading-[25px]  opacity-[70%] pt-[19px] pb-[36px] max-w-[490px]'>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
                         <Bookbtn />
                     </div>
                     <div className="md:w-6/12 w-full  px-[12px]">
@@ -84,7 +84,7 @@ const SeparationSection = () => {
                                     </div>
                                     <h4 className=' font-poppins font-medium text-[20px] leading-[32px] text-white text-center  max-w-[316px]'>1st phase
                                         "The not-wanting-to-be-true"</h4>
-                                    <h6 className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</h6>
+                                    <p className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</p>
                                 </div>
                             </div>
                             <div>
@@ -94,7 +94,7 @@ const SeparationSection = () => {
                                     </div>
                                     <h4 className=' font-poppins font-medium text-[20px] leading-[32px] text-white text-center  max-w-[316px]'>2st phase
                                         "The not-wanting-to-be-true"</h4>
-                                    <h6 className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</h6>
+                                    <p className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</p>
                                 </div>
                             </div>
                             <div>
@@ -104,7 +104,7 @@ const SeparationSection = () => {
                                     </div>
                                     <h4 className=' font-poppins font-medium text-[20px] leading-[32px] text-white text-center  max-w-[316px]'>3st phase
                                         "The not-wanting-to-be-true"</h4>
-                                    <h6 className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</h6>
+                                    <p className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</p>
                                 </div>
                             </div>
                             <div>
@@ -114,7 +114,7 @@ const SeparationSection = () => {
                                     </div>
                                     <h4 className=' font-poppins font-medium text-[20px] leading-[32px] text-white text-center  max-w-[316px]'>4st phase
                                         "The not-wanting-to-be-true"</h4>
-                                    <h6 className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</h6>
+                                    <p className=' font-poppins font-normal text-[16px] leading-[25px] text-center text-white pt-[15px] max-w-[364px]'>This phase is characterized by denial and ignoring the final separation.</p>
                                 </div>
                             </div>
                         </Slider>

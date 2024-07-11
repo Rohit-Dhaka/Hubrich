@@ -34,14 +34,14 @@ const WillgetSection = () => {
                         </div>
                     </div>
                     <div className="lg:w-[50%] px-[12px]" data-aos="zoom-out">
-                        <h6 className=' font-poppins font-normal text-[16px] leading-[25px] ps-[12px] relative after:absolute after:top-0 after:left-0 after:w-[2px] after:h-full after:bg-Barneypurple after:inline-block  max-w-[426px]'>I will show you which steps are necessary for you to finally successfully let go of your EX. And I will support you to look confidently into your new future.</h6>
+                        <p className=' font-poppins font-normal text-[16px] leading-[25px] ps-[12px] relative after:absolute after:top-0 after:left-0 after:w-[2px] after:h-full after:bg-Barneypurple after:inline-block  max-w-[426px]'>I will show you which steps are necessary for you to finally successfully let go of your EX. And I will support you to look confidently into your new future.</p>
                     </div>
                 </div>
                 <h4 className='pt-[47px] font-helvetica font-bold text-[20px] leading-[28px]  text-center'>In a 1:1 live coaching session, we will clarify the following questions in particular:</h4>
                 <div className="flex flex-row flex-wrap mx-[-12px] pt-[28px] lg:pb-[124px] sm:pb-[80px] pb-[60px]  relative">
                     <div className="lg:w-[33.33%] sm:w-[50%]" data-aos="fade-up">
                         <div className="sm:px-[48px] sm:pt-[63px] hover:bg-aliceblue duration-300 sm:h-[230px] group sm:pb-[63px] max-sm:p-[30px] ">
-                            <h6 className='font-poppins font-normal text-[16px] leading-[25px] group-hover:text-blue duration-300 opacity-[70%]  group-hover:opacity-[100%] capitalize'>Why does your EX have to disappear from your life forever?</h6>
+                            <p className='font-poppins font-normal text-[16px] leading-[25px] group-hover:text-blue duration-300 opacity-[70%]  group-hover:opacity-[100%] capitalize'>Why does your EX have to disappear from your life forever?</p>
                         </div>
                     </div>
                     <div className="lg:w-[33.33%] sm:w-[50%]" data-aos="fade-up">

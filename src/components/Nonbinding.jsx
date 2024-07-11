@@ -9,7 +9,7 @@ const Nonbinding = () => {
                         <h2 className='font-helvetica font-normal sm:text-[52px] text-[42px] sm:leading-[66px] leading-[56px]  uppercase max-w-[610px]'>Request your <span className="text-Orange text-nowrap">non-binding</span> strategy meeting now!</h2>
                     </div>
                     <div className='lg:w-5/12 w-full px-[12px] lg:pt-0 pt-3  flex lg:justify-end z-[1] ' data-aos="fade-up">
-                        <h6 className=' font-poppins font-normal text-[16px] leading-[25px]  pl-[14px] lg:max-w-[412px] relative after:absolute after:top-[4px] after:bottom-[10px] after:left-0 after:w-[2px] after:h-full after:bg-Barneypurple '>Click on the button below, choose an appointment and answer the questions truthfully. One of our strategy consultants will then contact you and conduct your free consultation. We can advise you on the following topics: </h6>
+                        <p className=' font-poppins font-normal text-[16px] leading-[25px]  pl-[14px] lg:max-w-[412px] relative after:absolute after:top-[4px] after:bottom-[10px] after:left-0 after:w-[2px] after:h-full after:bg-Barneypurple '>Click on the button below, choose an appointment and answer the questions truthfully. One of our strategy consultants will then contact you and conduct your free consultation. We can advise you on the following topics: </p>
                     </div>
                 </div>
             </div>
