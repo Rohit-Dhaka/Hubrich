@@ -5,7 +5,7 @@ import Group71 from '../assets/images/svg/Group71.svg'
 const LawyerSection = () => {
     return (
         <section className=" relative">
-            <div className=" absolute bottom-0 right-0 xxl:right-[10%]">
+            <div className=" absolute bottom-0 2xl:right-[10%] right-0">
                 <img src={Group71} alt="group" className='w-full max-lg:opacity-[30%]' />
             </div>
             <div className="max-w-[1140px] mx-auto px-[12px] relative">

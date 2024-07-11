@@ -3,7 +3,7 @@ import Group5 from '../assets/images/svg/Group5.svg'
 const YourfaltSection = () => {
     return (
         <section className=' relative '>
-            <div className=" absolute right-0 top-[8%] max-sm:opacity-[50%]">
+            <div className=" absolute right-0 top-[8%] max-sm:opacity-[20%]">
                 <img src={Group5} alt="group" />
             </div>
             <div className="max-w-[1140px] mx-auto px-[12px]">

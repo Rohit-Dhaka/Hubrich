@@ -4,7 +4,6 @@
   font-family: "Helvetica Neue";
   src: url(./assets/font/HelveticaNeueLight.otf);
 }
-
 @media (max-width:992px) {
   .navshow {
     z-index: 2 !important;
@@ -13,27 +12,22 @@
   .overflow_hidden {
     overflow: hidden;
   }
-
   .cross .bar:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);    
   }
-
   .cross .bar:nth-child(2) {
     transform: translate(-30px);
     opacity: 0;
   }
-
   .cross .bar:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
   }
 }
-
 .custom-dots li button::before {
   color: white !important;
   opacity: 30% !important;
   font-size: 12px !important;
 }
-
 .custom-dots li.slick-active button::before {
   color: white !important;
   opacity: 1 !important;
