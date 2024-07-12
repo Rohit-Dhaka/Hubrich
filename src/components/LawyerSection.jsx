@@ -4,7 +4,7 @@ import Arrow from '../assets/images/svg/arrow.svg'
 import Group71 from '../assets/images/svg/Group71.svg'
 const LawyerSection = () => {
     return (
-        <section className=" relative">
+        <section className=" relative overflow-hidden">
             
             <div className="max-w-[1140px] mx-auto px-[12px] 2xl:relative">
             <div className=" absolute bottom-0  right-0 2xl:right-[-20%]">

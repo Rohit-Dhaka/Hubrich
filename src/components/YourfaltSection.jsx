@@ -23,12 +23,13 @@ const YourfaltSection = () => {
         },
     ]
     return (
-        <section className='relative '>
-
-            <div className="max-w-[1140px] mx-auto px-[12px] 2xl:relative ">
-                <div className=" absolute 2xl:right-[-20%] right-0 top-[8%] max-sm:opacity-[20%]">
+        <section className='relative overflow-hidden'>
+             <div className=" absolute  right-0 top-[8%] max-sm:opacity-[20%]">
                     <img src={Group5} alt="group" />
                 </div>
+
+            <div className="max-w-[1140px] mx-auto px-[12px] 2xl:relative ">
+               
                 <div className=" absolute lg:top-[-10%] md:top-[0%] top-[42%]  ">
                     <div className="border-l-[2px] border-solid border-Orange w-[26px] sm:h-[269px] h-[80px] border-b-[2px] relative">
                         <p className=' absolute top-[-50px] left-[-20px]  font-poppins font-light text-[20px]  leading-[34px] rotate-[270deg] '>MJH</p>
