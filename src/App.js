@@ -12,6 +12,7 @@ import TargetSection from './components/TargetSection';
 import WillgetSection from './components/WillgetSection';
 import YourfaltSection from './components/YourfaltSection';
 import { useEffect } from 'react';
+import Backtotop from './components/Backtotop';
 
 function App() {
   useEffect(() => {
@@ -21,7 +22,7 @@ function App() {
     });
   }, [])
   return (
-    <>
+    <>      
       <HeroSection />
       <YourfaltSection />
       <WillgetSection />
@@ -32,6 +33,7 @@ function App() {
       <ClientsSection />
       <Nonbinding />
       <FooterSection />
+      <Backtotop />
     </>
   );
 }

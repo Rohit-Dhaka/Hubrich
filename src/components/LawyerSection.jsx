@@ -5,10 +5,11 @@ import Group71 from '../assets/images/svg/Group71.svg'
 const LawyerSection = () => {
     return (
         <section className=" relative">
-            <div className=" absolute bottom-0 2xl:right-[3%] right-0">
+            
+            <div className="max-w-[1140px] mx-auto px-[12px] 2xl:relative">
+            <div className=" absolute bottom-0  right-0 2xl:right-[-20%]">
                 <img src={Group71} alt="group" className='w-full max-lg:opacity-[30%]' />
             </div>
-            <div className="max-w-[1140px] mx-auto px-[12px] relative">
                 <div className=" absolute sm:top-[2%] lg:left-[2%] left-[2px] max-sm:bottom-[-5%]">
                     <div className="border-l-[2px] border-solid border-Orange w-[26px] h-[167px] border-b-[2px] relative">
                         <h6 className=' font-helvetica  font-normal text-[40px] leading-[51px] absolute  bottom-[-10px] left-[22px]  rotate-[270deg]'>05</h6>
@@ -28,10 +29,10 @@ const LawyerSection = () => {
                             <p className='pt-[12px] font-poppins font-normal text-[16px] leading-[25px] opacity-[70%]  pb-[35px]'>Marc J. Hubrich is the founder of the mindset agency specializing in consulting services.</p>
                             <button class="h-[59px]  rounded-[60px] bg-gradient-to-r from-LightSky  to-Indigo p-[1.7px] group max-w-[350px] hover:shadow-buttonshadow duration-300">
                                 <span class="flex gap-3 h-full w-full items-center justify-center bg-white  rounded-[63px] py-[16px] px-[32px]">                                    
-                                    <span class="bg-gradient-to-r from-LightSky to-Indigo inline-block text-transparent bg-clip-text">Learn more about the agency</span>
-                                    <span className=" group-hover:translate-x-[6px] duration-300">
-                                        <img src={Arrow} alt="arrow" />
-                                    </span>
+                                    <span class="bg-gradient-to-r from-LightSky to-Indigo inline-block text-transparent bg-clip-text font-inter">Learn more about the agency</span>
+                                    
+                                        <img src={Arrow} alt="arrow"  className=" group-hover:translate-x-[6px] duration-300"/>
+                                    
                                 </span>
                             </button>                          
                         </div>

@@ -71,7 +71,7 @@ const SeparationSection = () => {
                 <div className="flex flex-row flex-wrap-reverse mx-[-12px] lg:pb-[186px] sm:pb-[80px] pb-[60px] lg:pt-[302px] sm:pt-[80px] pt-[60px]" data-aos="flip-up">
                     <div className="md:w-6/12 w-full px-[12px] md:pt-0 pt-4"> 
                         <h6 className='font-helvetica font-normal text-[29px] leading-[37px] pt-[36px]'>THE FOUR PHASES OF</h6>
-                        <h2 className='font-helvetica font-normal leading-[62px] text-[52px] md:max-w-[327px]'>SEPARATION<span className="text-Orange"> MINDSET</span></h2>
+                        <h2 className='font-helvetica font-normal leading-[62px] text-[52px] md:max-w-[327px]'>SEPARATION<span className="t  ext-Orange"> MINDSET</span></h2>
                         <p className=' font-poppins font-normal text-[16px] leading-[25px]  opacity-[70%] pt-[19px] pb-[36px] max-w-[490px]'>There are 4 typical separation phases. The 4 phases are not always clearly separated from each other and can overlap.</p>
                         <Bookbtn />
                     </div>

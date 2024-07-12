@@ -10,6 +10,7 @@ const ClientsSection = () => {
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
+    autoplay:true,
     swipeToSlide: true,
 
     beforeChange: function (currentSlide, nextSlide) {

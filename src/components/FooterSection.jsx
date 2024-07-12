@@ -6,6 +6,7 @@ const FooterSection = () => {
     const Year =  d.getFullYear();
     return (
         <footer className='bg-blue  relative overflow-hidden'>
+        
             <div className=" absolute ">
                 <img src={Footerbg} alt="footerbg" className='w-full' />
             </div>

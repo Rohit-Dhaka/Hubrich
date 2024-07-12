@@ -1,12 +1,34 @@
 import React from 'react'
 import Group5 from '../assets/images/svg/Group5.svg'
+import Bluebox from './Bluebox'
 const YourfaltSection = () => {
+    const data1 = [
+        {
+            title: "Your self-esteem is in the basement."
+        },
+        {
+            title: "You keep asking yourself what you did wrong."
+        },
+        {
+            title: "The feeling of helplessness is your constant companion."
+        },
+        {
+            title: "You spend the nights alone and lonely."
+        },
+        {
+            title: "You have stopped going out and spend the time crying in your room."
+        },
+        {
+            title: "An emotional chaos is raging inside you."
+        },
+    ]
     return (
-        <section className=' relative '>
-            <div className=" absolute right-0 top-[8%] max-sm:opacity-[20%]">
-                <img src={Group5} alt="group" />
-            </div>
-            <div className="max-w-[1140px] mx-auto px-[12px]">
+        <section className='relative '>
+
+            <div className="max-w-[1140px] mx-auto px-[12px] 2xl:relative ">
+                <div className=" absolute 2xl:right-[-20%] right-0 top-[8%] max-sm:opacity-[20%]">
+                    <img src={Group5} alt="group" />
+                </div>
                 <div className=" absolute lg:top-[-10%] md:top-[0%] top-[42%]  ">
                     <div className="border-l-[2px] border-solid border-Orange w-[26px] sm:h-[269px] h-[80px] border-b-[2px] relative">
                         <p className=' absolute top-[-50px] left-[-20px]  font-poppins font-light text-[20px]  leading-[34px] rotate-[270deg] '>MJH</p>
@@ -33,28 +55,10 @@ const YourfaltSection = () => {
             <div className=" bg-fault bg-cover bg-no-repeat bg-center">
                 <div className="max-w-[1000px] mx-auto max-xl:px-[12px]">
                     <div className="flex md:justify-end max-md:overflow-x-scroll" data-aos="zoom-in-up">
-                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300  backdrop-blur-[3px]">
-                            <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>Your self-esteem is in the basement.</h6>
-                        </div>
-                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
-                            <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>You keep asking yourself what you did wrong.
-                            </h6>
-                        </div>
-                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
-                            <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>The feeling of helplessness is your constant companion.</h6>
-                        </div>
+                        {data1.slice(0, 3).map((item) => <Bluebox name={item.title} />)}
                     </div>
                     <div className="flex pt-[29px] max-md:overflow-x-scroll" data-aos="zoom-in-up">
-                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
-                            <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>You spend the nights alone and lonely.
-                            </h6>
-                        </div>
-                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[26px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px]">
-                            <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>You have stopped going out and spend the time crying in your room.</h6>
-                        </div>
-                        <div className="md:max-w-[250px] min-w-[250px] bg-steelblue px-[37px] py-[45px] h-[169px] hover:bg-blue duration-300 backdrop-blur-[3px] ">
-                            <h6 className='font-poppins font-normal text-[16px] leading-[25px] text-white'>An emotional chaos is raging inside you.</h6>
-                        </div>
+                        {data1.slice(3, 6).map((item) => <Bluebox name={item.title} />)}
                     </div>
                 </div>
             </div>
